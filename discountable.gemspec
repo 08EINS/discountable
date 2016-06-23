@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["ste.staub@gmail.com"]
   spec.summary       = %q{Nicely handle monetary discounts}
   spec.description   = ''
-  spec.homepage      = "http://www.08eins.ch"
+  spec.homepage      = "https://github.com/stestaub/discountable"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
