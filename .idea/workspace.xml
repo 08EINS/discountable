@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c72a2f6-169c-42d8-814d-d8feffd4b0f9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/database.yml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/db/migrate/20160623081642_create_order.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/discountable.iml" afterPath="$PROJECT_DIR$/.idea/discountable.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/discountable/active_record/model.rb" afterPath="$PROJECT_DIR$/lib/discountable/active_record/model.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/spec/discountable/active_record/active_record_spec.rb" afterPath="$PROJECT_DIR$/spec/discountable/active_record/active_record_spec.rb" />
     </list>
     <ignored path="discountable.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -18,16 +19,21 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/discountable@All_specs_in_spec__discountable.coverage" NAME="All specs in spec: discountable Coverage Results" MODIFIED="1466688862425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
-    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_should_return_0_percent_for_discount_and_surcharge__discountable.coverage" NAME="OrderMock percentize should return 0 percent for discount and surcharge: discountable Coverage Results" MODIFIED="1466715735177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
-    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_with_invalid_percentage_should_not_be_valid__discountable.coverage" NAME="OrderMock percentize with invalid percentage should not be valid: discountable Coverage Results" MODIFIED="1466716005589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
-    <SUITE FILE_PATH="coverage/discountable@Discount__discountable.coverage" NAME="Discount: discountable Coverage Results" MODIFIED="1466687056729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
-    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_with_invalid_percentage_should_not_be_valid_with_negative_percentage__discountable.coverage" NAME="OrderMock percentize with invalid percentage should not be valid with negative percentage: discountable Coverage Results" MODIFIED="1466716043699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@All_specs_in_spec__discountable.coverage" NAME="All specs in spec: discountable Coverage Results" MODIFIED="1466716338718" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_with_postfix_should_respond_to_the_method_name_with_postfix__discountable.coverage" NAME="OrderMock percentize with postfix should respond to the method name with postfix: discountable Coverage Results" MODIFIED="1466717067334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_should_persist_the_values__discountable.coverage" NAME="OrderMock percentize should persist the values: discountable Coverage Results" MODIFIED="1466717270334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
     <SUITE FILE_PATH="coverage/discountable@Percentage__discountable.coverage" NAME="Percentage: discountable Coverage Results" MODIFIED="1466685542482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
-    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_should_be_possible_to_assign_numeric__discountable.coverage" NAME="OrderMock percentize should be possible to assign numeric: discountable Coverage Results" MODIFIED="1466715894264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
-    <SUITE FILE_PATH="coverage/discountable@Run_spec__percentage_spec___discountable.coverage" NAME="Run spec 'percentage_spec': discountable Coverage Results" MODIFIED="1466685550292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_with_postfix_should_keep_the_original_accessor__discountable.coverage" NAME="OrderMock percentize with postfix should keep the original accessor: discountable Coverage Results" MODIFIED="1466717117914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_disabled_validation_should_skip_the_validations__discountable.coverage" NAME="OrderMock percentize disabled validation should skip the validations: discountable Coverage Results" MODIFIED="1466718063213" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
     <SUITE FILE_PATH="coverage/discountable@Surcharge__discountable.coverage" NAME="Surcharge: discountable Coverage Results" MODIFIED="1466687245421" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
     <SUITE FILE_PATH="coverage/discountable@OrderMock_should_be_possible_to_instantiate__discountable.coverage" NAME="OrderMock should be possible to instantiate: discountable Coverage Results" MODIFIED="1466693670522" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_should_return_0_percent_for_discount_and_surcharge__discountable.coverage" NAME="OrderMock percentize should return 0 percent for discount and surcharge: discountable Coverage Results" MODIFIED="1466715735177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_with_invalid_percentage_should_not_be_valid__discountable.coverage" NAME="OrderMock percentize with invalid percentage should not be valid: discountable Coverage Results" MODIFIED="1466716005589" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_with_postfix__discountable.coverage" NAME="OrderMock percentize with postfix: discountable Coverage Results" MODIFIED="1466717131982" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@Discount__discountable.coverage" NAME="Discount: discountable Coverage Results" MODIFIED="1466687056729" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_with_invalid_percentage_should_not_be_valid_with_negative_percentage__discountable.coverage" NAME="OrderMock percentize with invalid percentage should not be valid with negative percentage: discountable Coverage Results" MODIFIED="1466716043699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@OrderMock_percentize_should_be_possible_to_assign_numeric__discountable.coverage" NAME="OrderMock percentize should be possible to assign numeric: discountable Coverage Results" MODIFIED="1466715894264" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
+    <SUITE FILE_PATH="coverage/discountable@Run_spec__percentage_spec___discountable.coverage" NAME="Run spec 'percentage_spec': discountable Coverage Results" MODIFIED="1466685550292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
     <SUITE FILE_PATH="coverage/discountable@OrderMock_discountize_should_be_possible_to_set_a_discount__discountable.coverage" NAME="OrderMock discountize should be possible to set a discount: discountable Coverage Results" MODIFIED="1466714736067" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
     <SUITE FILE_PATH="coverage/discountable@OrderMock__discountable.coverage" NAME="OrderMock: discountable Coverage Results" MODIFIED="1466715406400" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="discountable" />
   </component>
@@ -61,17 +67,37 @@
         <entry file="file://$PROJECT_DIR$/lib/discountable/active_record/model.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+              <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="write.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="5" column="27" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="27" />
+              <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attribute_methods.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attribute_methods.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activemodel-4.2.5.1/lib/active_model/attribute_methods.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -110,8 +136,8 @@
       <file leaf-file-name="active_record_spec.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/spec/discountable/active_record/active_record_spec.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64705884">
-              <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5294118">
+              <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -122,16 +148,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gemfile.lock" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gemfile.lock">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -247,60 +263,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="active_record" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -342,20 +304,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="active_record" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="discountable" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -397,8 +345,8 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="RSpec.OrderMock percentize with invalid percentage should not be valid with negative percentage: discountable">
-    <configuration default="false" name="OrderMock: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+  <component name="RunManager" selected="RSpec.OrderMock percentize disabled validation should skip the validations: discountable">
+    <configuration default="false" name="OrderMock percentize with postfix should respond to the method name with postfix: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="discountable" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -420,7 +368,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/discountable/active_record/active_record_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock percentize with postfix should respond to the method name with postfix" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -431,7 +379,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="OrderMock percentize should return 0 percent for discount and surcharge: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="OrderMock percentize with postfix should keep the original accessor: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="discountable" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -453,7 +401,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/discountable/active_record/active_record_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock percentize should return 0 percent for discount and surcharge" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock percentize with postfix should keep the original accessor" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -464,7 +412,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="OrderMock percentize should be possible to assign numeric: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="OrderMock percentize with postfix: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="discountable" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -486,7 +434,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/discountable/active_record/active_record_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock percentize should be possible to assign numeric" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock percentize with postfix" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -497,7 +445,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="OrderMock percentize with invalid percentage should not be valid: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="OrderMock percentize should persist the values: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="discountable" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -519,7 +467,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/discountable/active_record/active_record_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock percentize with invalid percentage should not be valid" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock percentize should persist the values" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -530,7 +478,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
-    <configuration default="false" name="OrderMock percentize with invalid percentage should not be valid with negative percentage: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
+    <configuration default="false" name="OrderMock percentize disabled validation should skip the validations: discountable" type="RSpecRunConfigurationType" factoryName="RSpec" temporary="true">
       <predefined_log_file id="RUBY_RSPEC" enabled="true" />
       <module name="discountable" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
@@ -552,7 +500,7 @@
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/spec/discountable/active_record/active_record_spec.rb" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
-      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock percentize with invalid percentage should not be valid with negative percentage" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="OrderMock percentize disabled validation should skip the validations" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
       <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
@@ -689,19 +637,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="RSpec.OrderMock: discountable" />
-      <item index="1" class="java.lang.String" itemvalue="RSpec.OrderMock percentize should return 0 percent for discount and surcharge: discountable" />
-      <item index="2" class="java.lang.String" itemvalue="RSpec.OrderMock percentize should be possible to assign numeric: discountable" />
-      <item index="3" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with invalid percentage should not be valid: discountable" />
-      <item index="4" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with invalid percentage should not be valid with negative percentage: discountable" />
+      <item index="0" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with postfix should respond to the method name with postfix: discountable" />
+      <item index="1" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with postfix should keep the original accessor: discountable" />
+      <item index="2" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with postfix: discountable" />
+      <item index="3" class="java.lang.String" itemvalue="RSpec.OrderMock percentize should persist the values: discountable" />
+      <item index="4" class="java.lang.String" itemvalue="RSpec.OrderMock percentize disabled validation should skip the validations: discountable" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with invalid percentage should not be valid with negative percentage: discountable" />
-        <item index="1" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with invalid percentage should not be valid: discountable" />
-        <item index="2" class="java.lang.String" itemvalue="RSpec.OrderMock percentize should be possible to assign numeric: discountable" />
-        <item index="3" class="java.lang.String" itemvalue="RSpec.OrderMock percentize should return 0 percent for discount and surcharge: discountable" />
-        <item index="4" class="java.lang.String" itemvalue="RSpec.OrderMock: discountable" />
+        <item index="0" class="java.lang.String" itemvalue="RSpec.OrderMock percentize disabled validation should skip the validations: discountable" />
+        <item index="1" class="java.lang.String" itemvalue="RSpec.OrderMock percentize should persist the values: discountable" />
+        <item index="2" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with postfix: discountable" />
+        <item index="3" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with postfix should keep the original accessor: discountable" />
+        <item index="4" class="java.lang.String" itemvalue="RSpec.OrderMock percentize with postfix should respond to the method name with postfix: discountable" />
       </list>
     </recent_temporary>
   </component>
@@ -716,35 +664,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="OrderMock__discountable - 2016.06.23 at 22h 58m 11s.xml">
-      <configuration name="OrderMock: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_disabled_validation_should_skip_the_validations__discountable - 2016.06.23 at 23h 28m 46s.xml">
+      <configuration name="OrderMock percentize disabled validation should skip the validations: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="OrderMock_percentize_should_be_possible_to_assign_numeric__discountable - 2016.06.23 at 23h 04m 54s.xml">
-      <configuration name="OrderMock percentize should be possible to assign numeric: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_disabled_validation_should_skip_the_validations__discountable - 2016.06.23 at 23h 28m 54s.xml">
+      <configuration name="OrderMock percentize disabled validation should skip the validations: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="OrderMock_percentize_should_return_0_percent_for_discount_and_surcharge__discountable - 2016.06.23 at 22h 55m 32s.xml">
-      <configuration name="OrderMock percentize should return 0 percent for discount and surcharge: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_disabled_validation_should_skip_the_validations__discountable - 2016.06.23 at 23h 40m 50s.xml">
+      <configuration name="OrderMock percentize disabled validation should skip the validations: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="OrderMock_percentize_should_return_0_percent_for_discount_and_surcharge__discountable - 2016.06.23 at 22h 55m 52s.xml">
-      <configuration name="OrderMock percentize should return 0 percent for discount and surcharge: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_disabled_validation_should_skip_the_validations__discountable - 2016.06.23 at 23h 41m 03s.xml">
+      <configuration name="OrderMock percentize disabled validation should skip the validations: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="OrderMock_percentize_should_return_0_percent_for_discount_and_surcharge__discountable - 2016.06.23 at 22h 58m 23s.xml">
-      <configuration name="OrderMock percentize should return 0 percent for discount and surcharge: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_should_persist_the_values__discountable - 2016.06.23 at 23h 26m 56s.xml">
+      <configuration name="OrderMock percentize should persist the values: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="OrderMock_percentize_should_return_0_percent_for_discount_and_surcharge__discountable - 2016.06.23 at 23h 01m 12s.xml">
-      <configuration name="OrderMock percentize should return 0 percent for discount and surcharge: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_should_persist_the_values__discountable - 2016.06.23 at 23h 27m 23s.xml">
+      <configuration name="OrderMock percentize should persist the values: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="OrderMock_percentize_should_return_0_percent_for_discount_and_surcharge__discountable - 2016.06.23 at 23h 02m 15s.xml">
-      <configuration name="OrderMock percentize should return 0 percent for discount and surcharge: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_should_persist_the_values__discountable - 2016.06.23 at 23h 27m 36s.xml">
+      <configuration name="OrderMock percentize should persist the values: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="OrderMock_percentize_with_invalid_percentage_should_not_be_valid__discountable - 2016.06.23 at 23h 06m 36s.xml">
-      <configuration name="OrderMock percentize with invalid percentage should not be valid: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_should_persist_the_values__discountable - 2016.06.23 at 23h 27m 50s.xml">
+      <configuration name="OrderMock percentize should persist the values: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="OrderMock_percentize_with_invalid_percentage_should_not_be_valid__discountable - 2016.06.23 at 23h 06m 46s.xml">
-      <configuration name="OrderMock percentize with invalid percentage should not be valid: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_with_postfix__discountable - 2016.06.23 at 23h 25m 32s.xml">
+      <configuration name="OrderMock percentize with postfix: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
-    <history-entry file="OrderMock_percentize_with_invalid_percentage_should_not_be_valid_with_negative_percentage__discountable - 2016.06.23 at 23h 07m 24s.xml">
-      <configuration name="OrderMock percentize with invalid percentage should not be valid with negative percentage: discountable" configurationId="RSpecRunConfigurationType" />
+    <history-entry file="OrderMock_percentize_with_postfix_should_keep_the_original_accessor__discountable - 2016.06.23 at 23h 25m 18s.xml">
+      <configuration name="OrderMock percentize with postfix should keep the original accessor: discountable" configurationId="RSpecRunConfigurationType" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -757,7 +705,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276414" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294979" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -776,26 +724,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="ruby-line">
-          <url>file://$PROJECT_DIR$/lib/discountable/active_record/model.rb</url>
-          <line>14</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="8" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/discountable.gemspec">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="3" selection-start-line="26" selection-start-column="3" selection-end-line="26" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Gemfile.lock">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1011,14 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="49" column="28" selection-start-line="49" selection-start-column="28" selection-end-line="49" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_set.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1120,14 +1045,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Rakefile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1136,10 +1053,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Rakefile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/spec/spec_helper.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods/write.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="45" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.0.rc1/lib/active_record/attribute_methods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activemodel-4.2.5.1/lib/active_model/attribute_methods.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="63" column="9" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
           <folding />
         </state>
       </provider>
@@ -1171,15 +1120,15 @@
     <entry file="file://$PROJECT_DIR$/lib/discountable/active_record/model.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spec/discountable/active_record/active_record_spec.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64705884">
-          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5294118">
+          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="27" />
           <folding />
         </state>
       </provider>
