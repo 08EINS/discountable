@@ -20,6 +20,7 @@ module Adjustment
     def total_price
       original_price + surcharge_price
     end
+    alias_method :adjusted_price, :total_price
 
   end
 
@@ -32,6 +33,7 @@ module Adjustment
     def discounted_price
       original_price * percentage.price_factor
     end
+    alias_method :adjusted_price, :discounted_price
 
   end
 
