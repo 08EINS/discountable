@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/stestaub/discountable.svg?branch=master)](https://travis-ci.org/stestaub/discountable)
+
 # Discountable
 
 Easely handle discounts and surcharges on monetary values.
