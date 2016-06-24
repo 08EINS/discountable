@@ -1,6 +1,6 @@
 require 'rake'
 require 'bundler/gem_tasks'
-
+require 'rspec/core/rake_task'
 
 # This is taken from https://gist.github.com/drogus/6087979, thanks go to drogus
 require 'bundler/setup'
@@ -28,3 +28,10 @@ task :environment do
 end
 
 load 'active_record/railties/databases.rake'
+
+RSpec::Core::RakeTask.new(:test) do |t|
+  t.pattern = "spec/**/*_spec.rb"
+  t.verbose = true
+end
+
+task :default => [:test]
