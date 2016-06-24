@@ -58,6 +58,15 @@ RSpec.describe OrderMock do
         subject.discount = -1
         expect(subject).not_to be_valid
       end
+
+      it 'should return percentage when its value is inside valid range' do
+        subject.discount = 0
+        expect(subject.discount).to eq Percentage.new
+
+        subject.discount = 100
+        expect(subject.discount).to eq Percentage.new 100
+      end
+
     end
 
     context 'with postfix' do

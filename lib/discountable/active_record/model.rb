@@ -63,9 +63,9 @@ module Discountable
           attribute_value = read_attribute column_name
           return Percentage.new if attribute_value.nil?
 
-          if (attribute_value > 0) && (attribute_value < 100)
+          begin
             Percentage.new attribute_value
-          else
+          rescue ArgumentError
             attribute_value
           end
         end
