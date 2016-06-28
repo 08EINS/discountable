@@ -38,6 +38,10 @@ class Percentage
     "#{self.class.name}<#{to_s}>"
   end
 
+  def to_f
+    @amount.to_f
+  end
+
   private
 
   def initialize_amount(amount)

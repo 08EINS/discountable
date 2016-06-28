@@ -73,4 +73,16 @@ RSpec.describe Percentage do
 
   end
 
+  describe 'type cast' do
+
+    it 'should cast to float' do
+      expect(subject.to_f).to eq 20.0
+    end
+
+    it 'should not raise argument errors when directly casting to float' do
+      expect(Kernel.Float(subject)).to eq 20.0
+    end
+
+  end
+
 end
