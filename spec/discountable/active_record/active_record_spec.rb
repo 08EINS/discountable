@@ -1,7 +1,7 @@
 
 class OrderMock < ActiveRecord::Base
   self.table_name = :order
-  percentize :discount, :surcharge, validate: {less_or_equal_than: 100}
+  percentize :discount, :surcharge, validate: {less_than_or_equal_to: 100}
 end
 
 class OrderMockWithoutValidations < ActiveRecord::Base

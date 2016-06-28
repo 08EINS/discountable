@@ -34,9 +34,9 @@ module Discountable
       # value without conversion, so validation is possible.
       def percentize(*args)
 
-        _default_options = { postfix: '', validate: {greater_or_equal_than: 0} }
+        _default_options = { postfix: '', validate: {greater_than_or_equal_to: 0} }
 
-        options = _default_options.merge args.extract_options!
+        options = _default_options.deep_merge args.extract_options!
         names = args
 
         names.each do |name|
