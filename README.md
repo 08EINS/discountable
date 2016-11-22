@@ -1,6 +1,6 @@
 # Discountable
-[![Build Status](https://travis-ci.org/stestaub/discountable.svg?branch=master)](https://travis-ci.org/stestaub/discountable)
-[![Code Climate](https://codeclimate.com/github/stestaub/discountable/badges/gpa.svg)](https://codeclimate.com/github/stestaub/discountable)
+[![Build Status](https://travis-ci.org/08EINS/discountable.svg?branch=master)](https://travis-ci.org/08EINS/discountable)
+[![Code Climate](https://codeclimate.com/github/08EINS/discountable/badges/gpa.svg)](https://codeclimate.com/github/08EINS/discountable)
 
 Easely handle discounts and surcharges on monetary values.
 
