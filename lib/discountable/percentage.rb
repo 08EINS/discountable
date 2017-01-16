@@ -1,13 +1,14 @@
 class Percentage
   include Comparable
 
-  def initialize(amount = 0)
-    initialize_amount amount
-    @hundred = ::BigDecimal.new 100
+  HUNDRED = ::BigDecimal.new 100
+
+  def initialize(amount = 0, allow_negative_percentage = false)
+    initialize_amount(amount, allow_negative_percentage)
   end
 
   def fractional
-    @amount / @hundred
+    @amount / HUNDRED
   end
 
   def amount
@@ -44,13 +45,13 @@ class Percentage
 
   private
 
-  def initialize_amount(amount)
+  def initialize_amount(amount, allow_negative_percentage)
     if amount.is_a? Percentage
       @amount = amount.amount
     else
       @amount = ::BigDecimal.new(amount, 6)
     end
-    raise ArgumentError.new "I realy don't know how to correctly handle negative percentages... what should it be supposed to do" if @amount < 0
+    raise ArgumentError.new "I realy don't know how to correctly handle negative percentages... what should it be supposed to do" if @amount < 0 && !allow_negative_percentage
   end
 
 end
